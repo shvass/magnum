@@ -33,7 +33,7 @@ void translate(float x, float y, float* speeds){
     theta += M_PI / 4;
 
     speeds[0] = speeds[2] = MAX_SPEED * sin(theta);
-    speeds[1] = speeds[4] = MAX_SPEED * cos(theta);
+    speeds[1] = speeds[3] = MAX_SPEED * cos(theta);
 }
 
 
